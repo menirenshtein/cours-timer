@@ -22,7 +22,7 @@ const CountdownTimer: React.FC = () => {
       const seconds = Math.floor((difference / 1000) % 60);
 
       setTimeLeft(
-        `${days} : ${hours} : ${minutes} : ${seconds} `
+        `${days.toString().padStart(2,"0")} : ${hours.toString().padStart(2,"0")} : ${minutes.toString().padStart(2,"0")} : ${seconds.toString().padStart(2,"0")} `
       );
     };
 
@@ -38,7 +38,7 @@ const CountdownTimer: React.FC = () => {
       <div className="drip drip-medium"></div>
       <div className="drip drip-large"></div>
       <div className='noteDiv'>
-      <p className='note'> עד מתי קורס פולסטאק 2025 </p>
+      <p className='note'> עד מתי קורס פולסטאק 2024 </p>
 
       </div>
       {timeLeft}

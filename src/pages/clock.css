@@ -5,12 +5,12 @@
     font-size: 12em; 
     text-align: center;
     background-color: black; 
-    padding: 20px;
+    /* padding: 20px; */
     height: 800px;
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 0 50px 20px red; 
-    /* position: relative; */
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,7 +41,7 @@
   .drip-small {
     width: 5px;
     height: 10px;
-    left: 20%;
+    left: 25%;
     animation-duration: 2s;
   }
   
