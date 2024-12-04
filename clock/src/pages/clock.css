@@ -1,0 +1,111 @@
+/* styles.css */
+.countdown-timer {
+    font-family: 'Digital-7', sans-serif;
+    color: red;
+    font-size: 12em; 
+    text-align: center;
+    background-color: black; 
+    padding: 20px;
+    height: 800px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 50px 20px red; 
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  @keyframes drip {
+    0% {
+      transform: translateY(-100%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+  }
+  
+  .drip {
+    position: absolute;
+    top: 0;
+    background: red;
+    border-radius: 50%;
+    animation: drip 3s infinite linear;
+  }
+  
+  .drip-small {
+    width: 5px;
+    height: 10px;
+    left: 20%;
+    animation-duration: 2s;
+  }
+  
+  .drip-medium {
+    width: 8px;
+    height: 15px;
+    left: 50%;
+    animation-duration: 2.5s;
+  }
+  
+  .drip-large {
+    width: 10px;
+    height: 20px;
+    left: 80%;
+    animation-duration: 3s;
+  }
+  
+.noteDiv{
+    width: 100%;
+}
+
+.note{
+    margin: 0;
+    padding: 15px;
+    font-size: 100px;
+}
+.days{
+    width: 100%;
+    display: flex;
+    /* flex-direction: ; */
+    justify-content: space-around;
+    font-size: 90px;
+    margin-top:15px ;
+}
+.nota{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 10px;
+}
+
+
+  @font-face {
+    font-family: 'Digital-7';
+    src: url('../assets/fonts/digital_7/digital-7.ttf') format('truetype');
+  }
+  
+  /* .countdown-timer {
+    font-family: 'Digital-7', sans-serif;
+    color: red;
+    font-size: 12em;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    height: 800px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 50px 20px red;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: auto;
+  } */
+  
